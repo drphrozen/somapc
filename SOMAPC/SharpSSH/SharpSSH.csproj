@@ -1,7 +1,7 @@
 ﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
-    <ProductVersion>8.0.30729</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{D27CF69D-4681-492A-BE4D-D3D209104423}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -100,7 +100,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.ico" />
-    <Content Include="jsch\examples\README.txt" />
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -235,48 +234,6 @@
     </Compile>
     <Compile Include="jsch\DHGEX.cs">
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\AES.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\ChangePassphrase.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\KeyGen.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\KnownHosts.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\PortForwardingL.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\PortForwardingR.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\ScpFrom.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\ScpTo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\Sftp.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\Shell.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\StreamForwarding.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\UserAuthPubKey.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\util\ConsoleProgressBar.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="jsch\examples\util\InputForm.cs">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="jsch\ForwardedTCPIPDaemon.cs">
       <SubType>Code</SubType>
@@ -512,9 +469,6 @@
     <Compile Include="Streams\ProtectedConsoleStream.cs">
       <SubType>Code</SubType>
     </Compile>
-    <EmbeddedResource Include="jsch\examples\util\InputForm.resx">
-      <DependentUpon>InputForm.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
