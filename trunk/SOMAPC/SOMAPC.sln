@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOMAPC", "SOMAPC\SOMAPC.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSSH", "SharpSSH\SharpSSH.csproj", "{D27CF69D-4681-492A-BE4D-D3D209104423}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSSHExamples", "SharpSSHExamples\SharpSSHExamples.csproj", "{85DD9634-C1DD-4AD5-863E-C49DACEF9751}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -23,6 +25,10 @@ Global
 		{D27CF69D-4681-492A-BE4D-D3D209104423}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D27CF69D-4681-492A-BE4D-D3D209104423}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D27CF69D-4681-492A-BE4D-D3D209104423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85DD9634-C1DD-4AD5-863E-C49DACEF9751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85DD9634-C1DD-4AD5-863E-C49DACEF9751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85DD9634-C1DD-4AD5-863E-C49DACEF9751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85DD9634-C1DD-4AD5-863E-C49DACEF9751}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
