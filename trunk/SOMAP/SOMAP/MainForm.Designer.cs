@@ -1,4 +1,4 @@
-﻿namespace SOMAP
+﻿namespace SOMAPC
 {
     partial class MainForm
     {

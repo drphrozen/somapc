@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOMAP", "SOMAP\SOMAP.csproj", "{B4418D9F-6DF8-4B2B-B584-72BDEF0D41F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOMAPC", "SOMAP\SOMAPC.csproj", "{B4418D9F-6DF8-4B2B-B584-72BDEF0D41F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSSH", "..\..\..\..\..\..\CSharp\SharpSSH-1.1.1.13.src\SharpSSH\SharpSSH.csproj", "{D27CF69D-4681-492A-BE4D-D3D209104423}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSSH", "SharpSSH\SharpSSH.csproj", "{D27CF69D-4681-492A-BE4D-D3D209104423}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
