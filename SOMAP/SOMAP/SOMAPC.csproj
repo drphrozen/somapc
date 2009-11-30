@@ -8,8 +8,8 @@
     <ProjectGuid>{B4418D9F-6DF8-4B2B-B584-72BDEF0D41F9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SOMAP</RootNamespace>
-    <AssemblyName>SOMAP</AssemblyName>
+    <RootNamespace>SOMAPC</RootNamespace>
+    <AssemblyName>SOMAPC</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <StartupObject>SOMAP.Program</StartupObject>
@@ -50,15 +50,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\..\CSharp\SharpSSH-1.1.1.13.src\SharpSSH\SharpSSH.csproj">
-      <Project>{D27CF69D-4681-492A-BE4D-D3D209104423}</Project>
-      <Name>SharpSSH</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharpSSH\SharpSSH.csproj">
+      <Project>{D27CF69D-4681-492A-BE4D-D3D209104423}</Project>
+      <Name>SharpSSH</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

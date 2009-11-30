@@ -10,7 +10,7 @@ using System.Diagnostics;
 using System.Collections;
 using Tamir.SharpSsh.jsch;
 
-namespace SOMAP
+namespace SOMAPC
 {
     public partial class MainForm : Form
     {
@@ -85,8 +85,8 @@ namespace SOMAP
                 {
                     // Add the new node if it didn't exist
                     string imageKey = (entry.getAttrs().isDir() ? "folder" : "file");
-                    string selectedImageKey = (entry.getAttrs().isDir() ? "" : 0);
-                    currentNode.Nodes.Add(entryName, entryName, imageIndex, (imageIndex == 1 ? 2 : imageIndex));
+                    string selectedImageKey = (entry.getAttrs().isDir() ? "folder_open" : "file");
+                    currentNode.Nodes.Add(entryName, entryName, imageKey, selectedImageKey);
                     Console.WriteLine("entry: " + entryName);
                 }
                 else
